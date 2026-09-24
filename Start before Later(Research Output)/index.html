@@ -12,6 +12,10 @@
             <p class="intro-tag">A new beginning</p>
             <h1 class="intro-logo">THSCDC</h1>
             <p class="intro-subtitle">Focus. Discipline. Momentum.</p>
+            <label class="username-field" for="usernameInput">
+                <span>Username</span>
+                <input id="usernameInput" type="text" placeholder="Enter your username" maxlength="20">
+            </label>
             <button id="enterBtn" class="enter-btn">Enter Home</button>
         </div>
     </div>
@@ -19,24 +23,17 @@
     <header class="site-header">
         <nav class="navbar">
             <div class="brand">THSCDC</div>
-
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#features">Features</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
         </nav>
     </header>
 
     <main class="hero home-page" id="home">
         <div class="hero-copy">
-            <p class="eyebrow">Student Productivity</p>
-            <h1>Start Before Later</h1>
-            <p>A student-friendly website designed to help you overcome procrastination and build momentum.</p>
-            <div class="hero-actions">
-                <a href="#features" class="secondary-link">Learn More</a>
+            <div class="brand-block">
+                <span class="brand-logo">Welcome
+                </span>
             </div>
+            <p id="timeGreeting" class="eyebrow">Good morning</p>
+            <p class="welcome-text">Welcome, <span id="usernameDisplay">Student</span>!</p>
         </div>
     </main>
 
@@ -48,10 +45,6 @@
         <div class="info-card" id="about">
             <h3>Purpose</h3>
             <p>Helping students turn intention into action before procrastination takes over.</p>
-        </div>
-        <div class="info-card" id="contact">
-            <h3>Contact</h3>
-            <p>Start your journey with a better plan and a stronger mindset.</p>
         </div>
     </section>
 
